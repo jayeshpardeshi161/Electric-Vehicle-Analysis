@@ -60,12 +60,12 @@ KPIs Displayed:
 
 | KPI Name           | DAX Formula |
 |--------------------|-------------|
-| % of BEV           | `% of BEV = [BEV Vehicles] / [Total Vehicles]` |
-| % of PHEV          | `% of PHEV = [PHEV Vehicles] / [Total Vehicles]` |
+
 | BEV Vehicles       | `BEV Vehicles = CALCULATE([Total Vehicles],Electric_Vehicle_Population_Data[Electric Vehicle Type] = "Battery Electric Vehicle (BEV)")` |
 | PHEV Vehicles      | `PHEV Vehicles = CALCULATE([Total Vehicles],Electric_Vehicle_Population_Data[Electric Vehicle Type] = "Plug-in Hybrid Electric Vehicle (PHEV)")` |
 | Total Vehicles     | `Total Vehicles = DISTINCTCOUNT(Electric_Vehicle_Population_Data[DOL Vehicle ID])` |
-
+| % of BEV           | `% of BEV = [BEV Vehicles] / [Total Vehicles]` |
+| % of PHEV          | `% of PHEV = [PHEV Vehicles] / [Total Vehicles]` |
 ---
 
 ## 📊 Visualizations Used
