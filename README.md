@@ -1,0 +1,150 @@
+# 🚗 Electric Vehicle Analysis
+
+An interactive Power BI dashboard project analyzing electric vehicle (EV) data from Washington state to derive meaningful insights about EV distribution, types, utility associations, and market trends.
+
+---
+
+## 📌 Summary
+
+This project utilizes **Power BI** to visualize and analyze EV adoption trends using a dataset of over 133,000 records. 
+The analysis focuses on vehicle types, makes, models, electric range, utility providers, and state-level distributions to support data-driven decisions for clean energy policies and EV infrastructure planning.
+
+---
+
+## 🎯 Project Goal
+
+To build an insightful, dynamic, and user-interactive Power BI dashboard that:
+- Analyzes EV adoption trends across various dimensions.
+- Identifies key players (makes, models) in the EV space.
+- Assesses the popularity and growth of BEVs and PHEVs.
+- Assists policymakers and utility providers in planning infrastructure.
+
+---
+
+## 📂 Dataset Overview
+
+- **Source**: [Electric Vehicle Population Data]
+- **Total Rows**: 133,104  
+- **Total Columns**: 17  
+- **Format**: CSV  
+- **Key Features**:
+  - `Vehicle ID`, `Make`, `Model`, `Electric Range`, `Electric Vehicle Type`
+  - `Model Year`, `City`, `State`, `Electric Utility`, `CAFV Eligibility`
+
+---
+
+## ❓ Problem Statement
+
+With the rise in electric vehicle usage, how can we:
+- Quantify and visualize EV adoption across different regions?
+- Compare BEV vs. PHEV usage trends?
+- Understand how utility providers and model years influence adoption?
+- Inform future infrastructure and energy distribution plans?
+
+---
+
+## 📈 KPIs and Custom Measures
+
+Custom DAX Measures:
+- **BEV Vehicles**  
+- **PHEV Vehicles**  
+- **Total Vehicles**  
+- **% of BEV** = [BEV Vehicles] / [Total Vehicles]  
+- **% of PHEV** = [PHEV Vehicles] / [Total Vehicles]  
+
+KPIs Displayed:
+- **Total Vehicles**
+- **Average Electric Range**
+
+## 📈 KPIs & DAX Measures
+
+| KPI Name           | DAX Formula |
+|--------------------|-------------|
+| % of BEV           | `% of BEV = [BEV Vehicles] / [Total Vehicles]` |
+| % of PHEV          | `% of PHEV = [PHEV Vehicles] / [Total Vehicles]` |
+| BEV Vehicles       | `BEV Vehicles = CALCULATE([Total Vehicles],Electric_Vehicle_Population_Data[Electric Vehicle Type] = "Battery Electric Vehicle (BEV)")` |
+| PHEV Vehicles      | `PHEV Vehicles = CALCULATE([Total Vehicles],Electric_Vehicle_Population_Data[Electric Vehicle Type] = "Plug-in Hybrid Electric Vehicle (PHEV)")` |
+| Total Vehicles     | `Total Vehicles = DISTINCTCOUNT(Electric_Vehicle_Population_Data[DOL Vehicle ID])` |
+
+---
+
+## 📊 Visualizations Used
+
+1. **Dropdown Slicers**:
+   - City
+   - Electric Utility
+   - Electric Vehicle Type
+
+2. **Stacked Bar Chart**: Top 10 Makes by Vehicle Count  
+3. **Treemap**: Total Vehicles by Model  
+4. **Shape Map**: Vehicle Count by State  
+5. **Donut Charts**:
+   - BEV Breakdown
+   - PHEV Breakdown
+   - CAFV Eligibility  
+6. **Area Chart**: Year-wise Vehicle Adoption Trend  
+7. **Filters Panel** and **Logo Branding**  
+
+---
+
+## 🧠 Analysis & Key Findings
+
+- **Tesla**, **Nissan**, and **Chevrolet** dominate the EV market in Washington.
+- Majority of vehicles are **Battery Electric Vehicles (BEVs)**.
+- There is a consistent growth in **electric vehicle adoption** from 2010 to present.
+- Certain utilities and cities show higher concentration, indicating infrastructure readiness.
+- A substantial portion of vehicles are **CAFV eligible**, aligning with clean energy goals.
+
+---
+
+## 📌 Inference & Decisions
+
+- The adoption rate shows strong correlation with newer model years and CAFV eligibility.
+- Insights from the dashboard can help identify **target regions** for EV infrastructure expansion.
+- The **type of EV** (BEV vs. PHEV) is useful for predicting **charging needs** and **energy demand**.
+
+---
+
+## 🧪 Exploratory Data Analysis (EDA) Steps
+
+- Handled null/missing values during data loading.
+- Created distinct counts for accurate vehicle representation.
+- Applied DAX to build custom aggregations and KPIs.
+- Visual formatting and data filtering for user experience.
+
+---
+
+## 📍 Insights
+
+- BEVs make up the majority of total EVs (~X%).
+- Urban areas show denser EV populations.
+- Year-over-year growth patterns indicate rising adoption trends.
+
+---
+
+## 📌 Conclusion
+
+The dashboard delivers a clear, real-time view of electric vehicle trends that can empower:
+- **Government bodies** for policy making
+- **Utility companies** for infrastructure planning
+- **Automotive players** to understand market competition
+
+---
+
+## 📷 Screenshots
+
+> screenshots of "Electric Vehicle Analysis" Power Bi dashboard 
+<img width="1279" height="720" alt="dashboard-preview" src="https://github.com/user-attachments/assets/b05a33f9-8990-42fc-9340-704ca026d24f" />
+
+---
+
+## 📄 License
+
+MIT License – Feel free to use and contribute.
+
+---
+
+## 🙋‍♂️ Contact
+
+📧 [jayeshpardeshi161@gmail.com]  
+📌 LinkedIn: [Your Profile URL]  
