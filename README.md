@@ -134,7 +134,8 @@ The dashboard delivers a clear, real-time view of electric vehicle trends that c
 ## 📷 Screenshots
 
 > screenshots of "Electric Vehicle Analysis" Power Bi dashboard 
-<img width="1279" height="720" alt="dashboard-preview" src="https://github.com/user-attachments/assets/b05a33f9-8990-42fc-9340-704ca026d24f" />
+
+<img width="1187" height="667" alt="Electric_Vehicle _Analysis _Dashboard" src="https://github.com/user-attachments/assets/86340580-d7ea-4ccb-9804-fbdb58ad3025" />
 
 ---
 
