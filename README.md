@@ -142,8 +142,9 @@ The dashboard delivers a clear, real-time view of electric vehicle trends that c
 ✅ PROJECT COMPLETION STATUS
 ✔ Completed: All planned objectives have been met — dashboard built, KPIs calculated, interactive filters implemented, and insights derived. The dashboard clearly visualizes EV trends across Washington and some parts of the US.
 
-🔍 REVIEW OF EACH PROJECT STEP
-📁 1. Data Source and Preparation
+## 🔍 REVIEW OF EACH PROJECT STEP
+### 📁 1. Data Source and Preparation
+
 | **Step**                           | **Details**                        | **Status**  |
 | ---------------------------------- | ---------------------------------- | ----------- |
 | **1. Data Source and Preparation** |                                    | ✅ Done      |
@@ -152,16 +153,16 @@ The dashboard delivers a clear, real-time view of electric vehicle trends that c
 | DAX Measures                       | Created for accurate aggregations  | ✅ Completed |
 
 
-📊 2. KPI Measures Implementation
-KPI	Value
+### 📊 2. KPI Measures Implementation
+
 | **KPI**            | **Value** |
 | ------------------ | --------- |
 | Total Vehicles     | 150,422   |
 | Avg Electric Range | 67.83 mi  |
 
 
-🧮 DAX Calculations:
-All core metrics (% BEV, % PHEV, counts by type) are accurately calculated:
+### 🧮 DAX Calculations:
+##### All core metrics (% BEV, % PHEV, counts by type) are accurately calculated:
 
 | **Metric**    | **Value** | **Percentage** |
 | ------------- | --------- | -------------- |
@@ -169,8 +170,9 @@ All core metrics (% BEV, % PHEV, counts by type) are accurately calculated:
 | PHEV Vehicles | 33,672    | 22.39%         |
 
 
-📈 3. Visuals and Charts
-Visual Type	Description	Status
+### 📈 3. Visuals and Charts
+##### Visual Type	Description	Status
+
 | **Visual Type** | **Description**                             | **Status** |
 | --------------- | ------------------------------------------- | ---------- |
 | Area Chart      | Total Vehicles by Year – clear growth trend | ✅ Done     |
@@ -179,8 +181,8 @@ Visual Type	Description	Status
 | Treemap         | Top Models – Model Y, Model 3 lead          | ✅ Done     |
 | Donut Charts    | BEV/PHEV %, CAFV Eligibility                | ✅ Done     |
 
-🔧 4. Filters/Interactivity
-✅ Added Filters:
+### 🔧 4. Filters/Interactivity
+##### ✅ Added Filters:
 
 | **Filter**        | **Purpose**                                          | **Status** |
 | ----------------- | ---------------------------------------------------- | ---------- |
@@ -190,7 +192,7 @@ Visual Type	Description	Status
 | **Functionality** | Allows targeted insights for policy/utility planning | ✅ Working  |
 
 
-📌 KEY FINDINGS FROM DASHBOARD
+### 📌 KEY FINDINGS FROM DASHBOARD
 
 | **Insight Area**     | **Details**                                                                                                                              | **Status** |
 | -------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
@@ -201,7 +203,7 @@ Visual Type	Description	Status
 | **Geography**        | **Washington** state dominates registrations. Other states show very low EV counts, confirming **WA-focused dataset**.                   | ✅ Done     |
 
 
-📌 SUMMARY REPORT
+### 📌 SUMMARY REPORT
 
 | **Section**           | **Summary**                                                               |
 | --------------------- | ------------------------------------------------------------------------- |
@@ -212,7 +214,7 @@ Visual Type	Description	Status
 | **Insights**          | Strong BEV dominance, Tesla market leadership, rising adoption trend      |
 | **Recommendation**    | Can be used by policy makers and utilities for EV infrastructure planning |
 
-🏁 FINAL CONCLUSION
+### 🏁 FINAL CONCLUSION
 
 You've successfully built a professional-grade Power BI dashboard that fulfills all analytical goals:
 
@@ -221,6 +223,93 @@ Understand EV market structure in Washington.
 Support data-driven planning for clean energy and transportation.
 
 Present clear insights through strong visuals and DAX logic.
+
+---
+
+### ✅ What We Achieved
+
+#### 🔄 1. Data Consistency
+
+##### Achievement:
+
+Cleaned and standardized dataset with 133,104 records.
+
+DAX measures ensure consistent metric definitions across visuals.
+
+Unified structure for city, model year, electric utility, and state values.
+
+##### Impact:
+
+Reliable insights regardless of filters selected (city, EV type, utility).
+
+Eliminates duplication, misclassification, and manual inconsistencies.
+
+### 🎯 2. Data Accuracy
+
+##### Achievement:
+
+Used DISTINCTCOUNT for accurate total vehicle calculation.
+
+Validated DAX measures for BEV, PHEV, and % breakdowns.
+
+Accurately calculated CAFV eligibility and electric range metrics.
+
+##### Impact:
+
+Trustworthy base for policy analysis and forecasting.
+
+Ensures stakeholders make decisions on valid numbers.
+
+### 📊 3. Support for Data-Driven Decisions
+
+##### Achievement:
+
+Insights on adoption trends (year-over-year growth, top models).
+
+Identification of high-EV density cities and utilities.
+
+EV type preferences (BEV vs. PHEV) clearly highlighted.
+
+EV models and makes driving market (Tesla, Nissan, Chevrolet).
+
+Geographic gaps (only WA-heavy adoption) visible for future targeting.
+
+##### Impact:
+
+Supports government in targeting cities/utilities with infrastructure needs.
+
+Helps electric utilities plan load and charging station deployment.
+
+Aids policymakers in tailoring CAFV incentive programs.
+
+Enables automakers to understand competition and demand hotspots.
+
+🌱 4. Alignment with Clean Energy Goals
+##### Achievement:
+
+BEV dominance (77.61%) indicates shift toward zero-emission vehicles.
+
+CAFV eligibility insight allows focus on incentive-ready vehicles.
+
+Utility data can identify areas ready for grid modernization.
+
+##### Impact:
+
+Direct input to clean energy policy shaping.
+
+Facilitates prioritization for grant programs and infrastructure funding.
+
+Highlights areas for battery range research and expansion.
+
+### 🧾 Summary of What Was Achieved
+
+| Area                 | Achievement                                              | Impact                                          |
+| -------------------- | -------------------------------------------------------- | ----------------------------------------------- |
+| **Consistency**      | Uniform and reliable data across all filters and visuals | Builds trust and reduces misinterpretation      |
+| **Accuracy**         | Verified DAX logic and vehicle counts                    | Ensures sound strategic decisions               |
+| **Decision Support** | Rich insights on trends, make/model, geography           | Enables planning and resource allocation        |
+| **Policy Readiness** | BEV growth and CAFV breakdowns                           | Helps shape EV incentives and clean energy laws |
+
 
 ---
 
