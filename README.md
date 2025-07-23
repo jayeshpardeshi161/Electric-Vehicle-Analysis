@@ -141,8 +141,9 @@ The dashboard delivers a clear, real-time view of electric vehicle trends that c
 ---
 
 ## ✅ PROJECT COMPLETION STATUS
-##### ✔ Completed: All planned objectives have been met — dashboard built, KPIs calculated, interactive filters implemented, and insights derived. 
-##### The dashboard clearly visualizes EV trends across Washington and some parts of the US.
+
+✔ Completed: All planned objectives have been met — dashboard built, KPIs calculated, interactive filters implemented, and insights derived. 
+The dashboard clearly visualizes EV trends across Washington and some parts of the US.
 
 ## 🔍 REVIEW OF EACH PROJECT STEP
 ### 📁 1. Data Source and Preparation
@@ -232,77 +233,35 @@ Present clear insights through strong visuals and DAX logic.
 
 ### 🔄 1. Data Consistency
 
-##### Achievement:
+| **Category**    | **Details**                                                                                                                                                                                                           |
+| --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Achievement** | - Cleaned and standardized dataset with 133,104 records.  <br> - DAX measures ensure consistent metric definitions across visuals. <br> - Unified structure for city, model year, electric utility, and state values. |
+| **Impact**      | - Reliable insights regardless of filters selected (city, EV type, utility). <br> - Eliminates duplication, misclassification, and manual inconsistencies.                                                            |
 
-Cleaned and standardized dataset with 133,104 records.
-
-DAX measures ensure consistent metric definitions across visuals.
-
-Unified structure for city, model year, electric utility, and state values.
-
-##### Impact:
-
-Reliable insights regardless of filters selected (city, EV type, utility).
-
-Eliminates duplication, misclassification, and manual inconsistencies.
 
 ### 🎯 2. Data Accuracy
 
-##### Achievement:
+| **Category**    | **Details**                                                                                                                                                                                                      |
+| --------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Achievement** | - Used `DISTINCTCOUNT` for accurate total vehicle calculation. <br> - Validated DAX measures for BEV, PHEV, and percentage breakdowns. <br> - Accurately calculated CAFV eligibility and electric range metrics. |
+| **Impact**      | - Trustworthy base for policy analysis and forecasting. <br> - Ensures stakeholders make decisions based on valid numbers.                                                                                       |
 
-Used DISTINCTCOUNT for accurate total vehicle calculation.
-
-Validated DAX measures for BEV, PHEV, and % breakdowns.
-
-Accurately calculated CAFV eligibility and electric range metrics.
-
-##### Impact:
-
-Trustworthy base for policy analysis and forecasting.
-
-Ensures stakeholders make decisions on valid numbers.
 
 ### 📊 3. Support for Data-Driven Decisions
 
-##### Achievement:
+| **Category**    | **Details**                                                                                                                                                                                                                                                                                                                 |
+| --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Achievement** | - Insights on adoption trends (year-over-year growth, top models). <br> - Identified high-EV density cities and utilities. <br> - Clear EV type preferences (BEV vs. PHEV). <br> - Highlighted top EV models and makes (Tesla, Nissan, Chevrolet). <br> - Exposed geographic gaps (WA-heavy adoption) for future targeting. |
+| **Impact**      | - Supports government in targeting cities/utilities with infrastructure needs. <br> - Assists electric utilities in planning load and charging station deployment. <br> - Helps policymakers tailor CAFV incentive programs. <br> - Enables automakers to assess competition and demand hotspots.                           |
 
-Insights on adoption trends (year-over-year growth, top models).
-
-Identification of high-EV density cities and utilities.
-
-EV type preferences (BEV vs. PHEV) clearly highlighted.
-
-EV models and makes driving market (Tesla, Nissan, Chevrolet).
-
-Geographic gaps (only WA-heavy adoption) visible for future targeting.
-
-##### Impact:
-
-Supports government in targeting cities/utilities with infrastructure needs.
-
-Helps electric utilities plan load and charging station deployment.
-
-Aids policymakers in tailoring CAFV incentive programs.
-
-Enables automakers to understand competition and demand hotspots.
 
 ### 🌱 4. Alignment with Clean Energy Goals
 
-##### Achievement:
+| **Category**    | **Details**                                                                                                                                                                                                           |
+| --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Achievement** | - BEV dominance (77.61%) indicates shift toward zero-emission vehicles. <br> - CAFV eligibility insight enables focus on incentive-ready vehicles. <br> - Utility data highlights areas ready for grid modernization. |
+| **Impact**      | - Direct input to clean energy policy shaping. <br> - Facilitates prioritization for grant programs and infrastructure funding. <br> - Highlights areas for battery range research and expansion.                     |
 
-BEV dominance (77.61%) indicates shift toward zero-emission vehicles.
-
-CAFV eligibility insight allows focus on incentive-ready vehicles.
-
-Utility data can identify areas ready for grid modernization.
-
-##### Impact:
-
-Direct input to clean energy policy shaping.
-
-Facilitates prioritization for grant programs and infrastructure funding.
-
-Highlights areas for battery range research and expansion.
 
 ### 🧾 Summary of What Was Achieved
 
