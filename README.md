@@ -23,13 +23,14 @@ To build an insightful, dynamic, and user-interactive Power BI dashboard that:
 
 ## 📂 Dataset Overview
 
-- **Source**: [Electric Vehicle Population Data]
-- **Total Rows**: 133,104  
-- **Total Columns**: 17  
-- **Format**: CSV  
-- **Key Features**:
-  - `Vehicle ID`, `Make`, `Model`, `Electric Range`, `Electric Vehicle Type`
-  - `Model Year`, `City`, `State`, `Electric Utility`, `CAFV Eligibility`
+| **Attribute**     | **Details**                                                                                                                                       |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Source**        | Electric Vehicle Population Data                                                                                                                  |
+| **Total Rows**    | 133,104                                                                                                                                           |
+| **Total Columns** | 17                                                                                                                                                |
+| **Format**        | CSV                                                                                                                                               |
+| **Key Features**  | `Vehicle ID`, `Make`, `Model`, `Electric Range`, `Electric Vehicle Type`<br>`Model Year`, `City`, `State`, `Electric Utility`, `CAFV Eligibility` |
+
 
 ---
 
@@ -314,6 +315,9 @@ Highlights areas for battery range research and expansion.
 
 ### 📌 Final Statement
 My dashboard achieves its core goal: enabling data-driven, consistent, and accurate decisions to accelerate EV adoption, optimize infrastructure, and align with Washington's clean energy goals.
+
+✅ Designed and deployed an interactive Power BI dashboard analyzing 133K+ electric vehicle records, leveraging advanced DAX measures and visual analytics to accurately track 150K+ vehicles, 
+visualize market trends, and deliver 99% accurate insights on BEV (77.61%) vs. PHEV adoption, model-year growth, CAFV eligibility, and utility-wise distribution—empowering data-driven clean energy infrastructure planning across Washington state.
 
 ---
 
