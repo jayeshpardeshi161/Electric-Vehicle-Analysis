@@ -46,16 +46,11 @@ With the rise in electric vehicle usage, how can we:
 
 ## 📈 KPIs and Custom Measures
 
-Custom DAX Measures:
-- **BEV Vehicles**  
-- **PHEV Vehicles**  
-- **Total Vehicles**  
-- **% of BEV** = [BEV Vehicles] / [Total Vehicles]  
-- **% of PHEV** = [PHEV Vehicles] / [Total Vehicles]  
+| **Category**            | **Details**                                                                                                                                                                                 |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Custom DAX Measures** | - **BEV Vehicles** <br> - **PHEV Vehicles** <br> - **Total Vehicles** <br> - **% of BEV** = \[BEV Vehicles] / \[Total Vehicles] <br> - **% of PHEV** = \[PHEV Vehicles] / \[Total Vehicles] |
+| **KPIs Displayed**      | - **Total Vehicles** <br> - **Average Electric Range**                                                                                                                                      |
 
-KPIs Displayed:
-- **Total Vehicles**
-- **Average Electric Range**
 
 ## 📈 KPIs & DAX Measures
 
@@ -71,20 +66,15 @@ KPIs Displayed:
 
 ## 📊 Visualizations Used
 
-1. **Dropdown Slicers**:
-   - City
-   - Electric Utility
-   - Electric Vehicle Type
-
-2. **Stacked Bar Chart**: Top 10 Makes by Vehicle Count  
-3. **Treemap**: Total Vehicles by Model  
-4. **Shape Map**: Vehicle Count by State  
-5. **Donut Charts**:
-   - BEV Breakdown
-   - PHEV Breakdown
-   - CAFV Eligibility  
-6. **Area Chart**: Year-wise Vehicle Adoption Trend  
-7. **Filters Panel** and **Logo Branding**  
+| **Component**              | **Details**                                                   |
+| -------------------------- | ------------------------------------------------------------- |
+| **1. Dropdown Slicers**    | - City <br> - Electric Utility <br> - Electric Vehicle Type   |
+| **2. Stacked Bar Chart**   | Top 10 Makes by Vehicle Count                                 |
+| **3. Treemap**             | Total Vehicles by Model                                       |
+| **4. Shape Map**           | Vehicle Count by State                                        |
+| **5. Donut Charts**        | - BEV Breakdown <br> - PHEV Breakdown <br> - CAFV Eligibility |
+| **6. Area Chart**          | Year-wise Vehicle Adoption Trend                              |
+| **7. Additional Elements** | Filters Panel and Logo Branding                               |
 
 ---
 
@@ -229,7 +219,7 @@ Present clear insights through strong visuals and DAX logic.
 
 ---
 
-### ✅ What We Achieved
+### ✅   Achieved
 
 ### 🔄 1. Data Consistency
 
@@ -263,7 +253,7 @@ Present clear insights through strong visuals and DAX logic.
 | **Impact**      | - Direct input to clean energy policy shaping. <br> - Facilitates prioritization for grant programs and infrastructure funding. <br> - Highlights areas for battery range research and expansion.                     |
 
 
-### 🧾 Summary of What Was Achieved
+### 🧾 Summary of What Achieved
 
 | Area                 | Achievement                                              | Impact                                          |
 | -------------------- | -------------------------------------------------------- | ----------------------------------------------- |
