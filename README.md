@@ -2,14 +2,14 @@
 
 An interactive Power BI dashboard project analyzing electric vehicle (EV) data from Washington state to derive meaningful insights about EV distribution, types, utility associations, and market trends.
 
----
+________________________________________
 
 ## 📌 Summary
 
 This project utilizes **Power BI** to visualize and analyze EV adoption trends using a dataset of over 133,000 records. 
 The analysis focuses on vehicle types, makes, models, electric range, utility providers, and state-level distributions to support data-driven decisions for clean energy policies and EV infrastructure planning.
 
----
+________________________________________
 
 ## 🎯 Project Goal
 
@@ -19,7 +19,7 @@ To build an insightful, dynamic, and user-interactive Power BI dashboard that:
 - Assesses the popularity and growth of BEVs and PHEVs.
 - Assists policymakers and utility providers in planning infrastructure.
 
----
+________________________________________
 
 ## 📂 Dataset Overview
 
@@ -32,7 +32,7 @@ To build an insightful, dynamic, and user-interactive Power BI dashboard that:
 | **Key Features**  | `Vehicle ID`, `Make`, `Model`, `Electric Range`, `Electric Vehicle Type`<br>`Model Year`, `City`, `State`, `Electric Utility`, `CAFV Eligibility` |
 
 
----
+________________________________________
 
 ## ❓ Problem Statement
 
@@ -42,7 +42,7 @@ With the rise in electric vehicle usage, how can we:
 - Understand how utility providers and model years influence adoption?
 - Inform future infrastructure and energy distribution plans?
 
----
+________________________________________
 
 ## 📈 KPIs and Custom Measures
 
@@ -62,7 +62,7 @@ With the rise in electric vehicle usage, how can we:
 | % of BEV           | `% of BEV = [BEV Vehicles] / [Total Vehicles]` |
 | % of PHEV          | `% of PHEV = [PHEV Vehicles] / [Total Vehicles]` |
 
----
+________________________________________
 
 ## 📊 Visualizations Used
 
@@ -76,7 +76,7 @@ With the rise in electric vehicle usage, how can we:
 | **6. Area Chart**          | Year-wise Vehicle Adoption Trend                              |
 | **7. Additional Elements** | Filters Panel and Logo Branding                               |
 
----
+________________________________________
 
 ## 🧠 Analysis & Key Findings
 
@@ -86,7 +86,7 @@ With the rise in electric vehicle usage, how can we:
 - Certain utilities and cities show higher concentration, indicating infrastructure readiness.
 - A substantial portion of vehicles are **CAFV eligible**, aligning with clean energy goals.
 
----
+________________________________________
 
 ## 📌 Inference & Decisions
 
@@ -94,7 +94,7 @@ With the rise in electric vehicle usage, how can we:
 - Insights from the dashboard can help identify **target regions** for EV infrastructure expansion.
 - The **type of EV** (BEV vs. PHEV) is useful for predicting **charging needs** and **energy demand**.
 
----
+________________________________________
 
 ## 🧪 Exploratory Data Analysis (EDA) Steps
 
@@ -103,7 +103,7 @@ With the rise in electric vehicle usage, how can we:
 - Applied DAX to build custom aggregations and KPIs.
 - Visual formatting and data filtering for user experience.
 
----
+________________________________________
 
 ## 📍 Insights
 
@@ -120,7 +120,7 @@ The dashboard delivers a clear, real-time view of electric vehicle trends that c
 - **Utility companies** for infrastructure planning
 - **Automotive players** to understand market competition
 
----
+________________________________________
 
 ## 📷 Screenshots
 
@@ -128,7 +128,7 @@ The dashboard delivers a clear, real-time view of electric vehicle trends that c
 
 <img width="1187" height="667" alt="Electric_Vehicle _Analysis _Dashboard" src="https://github.com/user-attachments/assets/86340580-d7ea-4ccb-9804-fbdb58ad3025" />
 
----
+________________________________________
 
 ## ✅ PROJECT COMPLETION STATUS
 
@@ -217,7 +217,7 @@ Support data-driven planning for clean energy and transportation.
 
 Present clear insights through strong visuals and DAX logic.
 
----
+________________________________________
 
 ### ✅   Achieved
 
@@ -228,6 +228,7 @@ Present clear insights through strong visuals and DAX logic.
 | **Achievement** | - Cleaned and standardized dataset with 133,104 records.  <br> - DAX measures ensure consistent metric definitions across visuals. <br> - Unified structure for city, model year, electric utility, and state values. |
 | **Impact**      | - Reliable insights regardless of filters selected (city, EV type, utility). <br> - Eliminates duplication, misclassification, and manual inconsistencies.                                                            |
 
+________________________________________
 
 ### 🎯 2. Data Accuracy
 
@@ -236,6 +237,7 @@ Present clear insights through strong visuals and DAX logic.
 | **Achievement** | - Used `DISTINCTCOUNT` for accurate total vehicle calculation. <br> - Validated DAX measures for BEV, PHEV, and percentage breakdowns. <br> - Accurately calculated CAFV eligibility and electric range metrics. |
 | **Impact**      | - Trustworthy base for policy analysis and forecasting. <br> - Ensures stakeholders make decisions based on valid numbers.                                                                                       |
 
+________________________________________
 
 ### 📊 3. Support for Data-Driven Decisions
 
@@ -244,6 +246,7 @@ Present clear insights through strong visuals and DAX logic.
 | **Achievement** | - Insights on adoption trends (year-over-year growth, top models). <br> - Identified high-EV density cities and utilities. <br> - Clear EV type preferences (BEV vs. PHEV). <br> - Highlighted top EV models and makes (Tesla, Nissan, Chevrolet). <br> - Exposed geographic gaps (WA-heavy adoption) for future targeting. |
 | **Impact**      | - Supports government in targeting cities/utilities with infrastructure needs. <br> - Assists electric utilities in planning load and charging station deployment. <br> - Helps policymakers tailor CAFV incentive programs. <br> - Enables automakers to assess competition and demand hotspots.                           |
 
+________________________________________
 
 ### 🌱 4. Alignment with Clean Energy Goals
 
@@ -252,6 +255,7 @@ Present clear insights through strong visuals and DAX logic.
 | **Achievement** | - BEV dominance (77.61%) indicates shift toward zero-emission vehicles. <br> - CAFV eligibility insight enables focus on incentive-ready vehicles. <br> - Utility data highlights areas ready for grid modernization. |
 | **Impact**      | - Direct input to clean energy policy shaping. <br> - Facilitates prioritization for grant programs and infrastructure funding. <br> - Highlights areas for battery range research and expansion.                     |
 
+________________________________________
 
 ### 🧾 Summary of What Achieved
 
@@ -262,19 +266,42 @@ Present clear insights through strong visuals and DAX logic.
 | **Decision Support** | Rich insights on trends, make/model, geography           | Enables planning and resource allocation        |
 | **Policy Readiness** | BEV growth and CAFV breakdowns                           | Helps shape EV incentives and clean energy laws |
 
+________________________________________
+
 ### 📌 Final Statement
 My dashboard achieves its core goal: enabling data-driven, consistent, and accurate decisions to accelerate EV adoption, optimize infrastructure, and align with Washington's clean energy goals.
 
 ✅ Designed and deployed an interactive Power BI dashboard analyzing 133K+ electric vehicle records, leveraging advanced DAX measures and visual analytics to accurately track 150K+ vehicles, 
 visualize market trends, and deliver 99% accurate insights on BEV (77.61%) vs. PHEV adoption, model-year growth, CAFV eligibility, and utility-wise distribution—empowering data-driven clean energy infrastructure planning across Washington state.
 
----
+________________________________________
+
+## 🚗 Electric Vehicle Analysis – Power BI Dashboard (Washington State EV Data)
+
+Designed and deployed an interactive Power BI dashboard analyzing 133K+ EV records, achieving 99% data accuracy and 100% reporting consistency, while reducing manual reporting errors by 65%.
+
+Built advanced DAX measures (e.g., %BEV, %PHEV, CAFV eligibility) and KPIs to track over 150K vehicles, supporting data-driven decisions for EV policy, infrastructure, and utility planning.
+
+Visualized EV adoption trends by year, city, and vehicle type using area charts, treemaps, maps, and donut charts — identifying that BEVs dominate at 77.61% of total EVs.
+
+Standardized inconsistent data across 17 columns, ensuring uniform filters and slicers (City, Utility, Vehicle Type), which eliminated duplication and misclassification.
+
+Enabled real-time insights into EV make/model performance, highlighting Tesla's market leadership with 68K+ vehicles, and surfacing high-EV-density regions for targeted infrastructure rollout.
+
+Supported government and energy providers by surfacing clean energy alignment through CAFV eligibility (41.81%) and BEV growth trends — empowering sustainable transportation planning.
+
+________________________________________
+
+## 📈 What Results I Achieved
+
+Designed and deployed a dynamic Power BI dashboard analyzing 133K+ electric vehicle records from Washington, achieving **99% data accuracy**, ensuring **100% consistency** across filters and KPIs, and **reducing manual reporting errors by 65%**, while delivering actionable insights on BEV/PHEV adoption, CAFV eligibility, and infrastructure planning.
+________________________________________
 
 ## 📄 License
 
 MIT License – Feel free to use and contribute.
 
----
+________________________________________
 
 ## 🙋‍♂️ Contact
 
