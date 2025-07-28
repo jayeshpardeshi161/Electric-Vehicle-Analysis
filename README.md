@@ -276,7 +276,7 @@ visualize market trends, and deliver 99% accurate insights on BEV (77.61%) vs. P
 
 ________________________________________
 
-## 🚗 Electric Vehicle Analysis – Power BI Dashboard (Washington State EV Data)
+## What I Achieved
 
 Designed and deployed an interactive Power BI dashboard analyzing 133K+ EV records, achieving 99% data accuracy and 100% reporting consistency, while reducing manual reporting errors by 65%.
 
