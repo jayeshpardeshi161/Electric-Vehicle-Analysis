@@ -269,6 +269,7 @@ ________________________________________
 ________________________________________
 
 ### 📌 Final Statement
+
 My dashboard achieves its core goal: enabling data-driven, consistent, and accurate decisions to accelerate EV adoption, optimize infrastructure, and align with Washington's clean energy goals.
 
 ✅ Designed and deployed an interactive Power BI dashboard analyzing 133K+ electric vehicle records, leveraging advanced DAX measures and visual analytics to accurately track 150K+ vehicles, 
@@ -278,17 +279,17 @@ ________________________________________
 
 ## What I Achieved
 
-Designed and deployed an interactive Power BI dashboard analyzing 133K+ EV records, achieving 99% data accuracy and 100% reporting consistency, while reducing manual reporting errors by 65%.
+**Designed and deployed** an interactive Power BI dashboard analyzing **133K+ EV records**, achieving **99% data accuracy** and **100% reporting consistency**, while **reducing manual reporting errors by 65%**.
 
-Built advanced DAX measures (e.g., %BEV, %PHEV, CAFV eligibility) and KPIs to track over 150K vehicles, supporting data-driven decisions for EV policy, infrastructure, and utility planning.
+**Built** advanced DAX measures (e.g., %BEV, %PHEV, CAFV eligibility) and KPIs to track over **150K vehicles**, supporting data-driven decisions for EV policy, infrastructure, and utility planning.
 
-Visualized EV adoption trends by year, city, and vehicle type using area charts, treemaps, maps, and donut charts — identifying that BEVs dominate at 77.61% of total EVs.
+**Visualized** EV adoption trends by year, city, and vehicle type using area charts, treemaps, maps, and donut charts — identifying that **BEVs dominate at 77.61%** of total EVs.
 
-Standardized inconsistent data across 17 columns, ensuring uniform filters and slicers (City, Utility, Vehicle Type), which eliminated duplication and misclassification.
+**Standardized** inconsistent data across 17 columns, ensuring uniform filters and slicers (City, Utility, Vehicle Type), which **eliminated duplication and misclassification**.
 
-Enabled real-time insights into EV make/model performance, highlighting Tesla's market leadership with 68K+ vehicles, and surfacing high-EV-density regions for targeted infrastructure rollout.
+**Enabled** real-time insights into EV make/model performance, highlighting Tesla's market leadership with **68K+ vehicles**, and surfacing high-EV-density regions for targeted infrastructure rollout.
 
-Supported government and energy providers by surfacing clean energy alignment through CAFV eligibility (41.81%) and BEV growth trends — empowering sustainable transportation planning.
+**Supported** government and energy providers by surfacing clean energy alignment through CAFV eligibility (41.81%) and BEV growth trends — empowering sustainable transportation planning.
 
 ________________________________________
 
