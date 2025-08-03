@@ -307,4 +307,4 @@ ________________________________________
 ## 🙋‍♂️ Contact
 
 📧 [jayeshpardeshi161@gmail.com]  
-📌 LinkedIn: [Your Profile URL]  
+📌 LinkedIn: [https://www.linkedin.com/in/jayesh-pardeshi-645247378/]  
